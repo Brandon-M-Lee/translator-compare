@@ -19,5 +19,3 @@ res_papago = requests.get(link_papago)
 
 soup_google = BeautifulSoup(res_google.text, 'html.parser')
 soup_papago = BeautifulSoup(res_papago.text, 'html.parser')
-
-print(soup_papago.prettify())
